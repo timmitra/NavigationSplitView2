@@ -11,7 +11,7 @@ import SwiftUI
 struct NavigationSplitViewApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
         }
     }
 }
