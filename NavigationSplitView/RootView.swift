@@ -9,13 +9,12 @@ import SwiftUI
 
 struct RootView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+      // two column
+        NavigationSplitView {
+            // side bar
+        } detail: {
+           // item details
         }
-        .padding()
     }
 }
 
